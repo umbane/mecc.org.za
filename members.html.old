@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Muizenberg Electricity Cooperative</title>
+  <title>EstateAgency Bootstrap Template</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -38,7 +38,6 @@
 
   <div class="click-closed"></div>
   <!--/ Form Search Star /-->
-<!--
   <div class="box-collapse">
     <div class="title-box-d">
       <h3 class="title-d">Search Property</h3>
@@ -130,7 +129,7 @@
     </div>
   </div>
   <!--/ Form Search End /-->
--->
+
   <!--/ Nav Star /-->
   <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
     <div class="container">
@@ -140,7 +139,7 @@
         <span></span>
         <span></span>
       </button>
-      <a class="navbar-brand text-brand" href="index.html">Umbane/Electricity<span class="color-b">Cooperative</span></a>
+      <a class="navbar-brand text-brand" href="index.html">Estate<span class="color-b">Agency</span></a>
       <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
         data-target="#navbarTogglerDemo01" aria-expanded="false">
         <span class="fa fa-search" aria-hidden="true"></span>
@@ -150,31 +149,27 @@
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-        <!--  
-	<li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-         --> 
-
           <li class="nav-item">
-            <a class="nav-link" href="https://muizenmesh.co.za/wp/web/mecc/">Blog</a>
+            <a class="nav-link" href="property-grid.html">Property</a>
           </li>
-
+          <li class="nav-item">
+            <a class="nav-link" href="blog-grid.html">Blog</a>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Sites
+              Pages
             </a>
-
-	<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-         <a class="dropdown-item" href="https://www.muizenmesh.co.za/wiki/index.php/Muizenberg_Electric     ity_Cooperative" target="new">Wiki</a>
-          <a class="dropdown-item" href="https://bit.ly/battery-day-discord" target="new">Discord Server     </a>
-          <a class="dropdown-item" href="https://linktr.ee/muizenvolt" target="new">Link Tree</a>
-          <a class="dropdown-item" href="https://www.facebook.com/groups/890884558995990" target="new">Fa     ce Book</a>
-           <a class="dropdown-item" href="https://muizenmesh.co.za/store/" target="new">Store</a>
-           </div>
-             </li>
-
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="property-single.html">Property Single</a>
+              <a class="dropdown-item" href="blog-single.html">Blog Single</a>
+              <a class="dropdown-item active" href="agents-grid.html">Agents Grid</a>
+              <a class="dropdown-item" href="agent-single.html">Agent Single</a>
+            </div>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
@@ -194,59 +189,59 @@
       <div class="row">
         <div class="col-md-12 col-lg-8">
           <div class="title-single-box">
-		    <h1 class="title-single">Our Amazing Members</h1>
-		    <span class="color-text-a">Working for Energy Resiliance</span>
-		  </div>
-		</div>
-		<div class="col-md-12 col-lg-4">
-		  <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
-		    <ol class="breadcrumb">
-		      <li class="breadcrumb-item">
-			<a href="index.html">Home</a>
-		      </li>
-		      <li class="breadcrumb-item active" aria-current="page">
-			Members Grid
-		      </li>
-		    </ol>
-		  </nav>
-		</div>
-	      </div>
-	    </div>
-	  </section>
-	  <!--/ Intro Single End /-->
+            <h1 class="title-single">Our Amazing Agents</h1>
+            <span class="color-text-a">Grid Properties</span>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="#">Home</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Agents Grid
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Intro Single End /-->
 
-	  <!--/ Agents Grid Star /-->
-	  <section class="agents-grid grid">
-	    <div class="container">
-	      <div class="row">
-		<div class="col-md-4">
-		  <div class="card-box-d">
-		    <div class="card-img-d">
-		      <img src="img/agent-4.jpg" alt="" class="img-d img-fluid">
-		    </div>
-		    <div class="card-overlay card-overlay-hover">
-		      <div class="card-header-d">
-			<div class="card-title-d align-self-center">
-			  <h3 class="title-d">
-			    <a href="#" class="link-two">Chad Cupido
-			      </a>
-			  </h3>
-			</div>
-		      </div>
-		      <div class="card-body-d">
-			<p class="content-d color-text-a">
-			  Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
-			</p>
-			<div class="info-agents color-a">
-			  <p>
-			    <strong>Phone: </strong> +54 356 945234</p>
-			  <p>
-			    <strong>Email: </strong> chad@mecc.org.za</p>
-			</div>
-		      </div>
-		      <div class="card-footer-d">
-			<div class="socials-footer d-flex justify-content-center">
-			  <ul class="list-inline">
+  <!--/ Agents Grid Star /-->
+  <section class="agents-grid grid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-box-d">
+            <div class="card-img-d">
+              <img src="img/agent-4.jpg" alt="" class="img-d img-fluid">
+            </div>
+            <div class="card-overlay card-overlay-hover">
+              <div class="card-header-d">
+                <div class="card-title-d align-self-center">
+                  <h3 class="title-d">
+                    <a href="#" class="link-two">Margaret Sotillo
+                      <br> Escala</a>
+                  </h3>
+                </div>
+              </div>
+              <div class="card-body-d">
+                <p class="content-d color-text-a">
+                  Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                </p>
+                <div class="info-agents color-a">
+                  <p>
+                    <strong>Phone: </strong> +54 356 945234</p>
+                  <p>
+                    <strong>Email: </strong> agents@example.com</p>
+                </div>
+              </div>
+              <div class="card-footer-d">
+                <div class="socials-footer d-flex justify-content-center">
+                  <ul class="list-inline">
                     <li class="list-inline-item">
                       <a href="#" class="link-one">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -688,19 +683,20 @@
         <div class="col-sm-12 col-md-4">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">Umbane/Electricity Cooperative</h3>
+              <h3 class="w-title-a text-brand">EstateAgency</h3>
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
-                Based in Muizenberg, Cape Town, promoting energy resilience & servicing Southern Peninsula Communities.
+                Enim minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat duis
+                sed aute irure.
               </p>
             </div>
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone .</span> mecc@muizenmesh.co.za</li>
+                  <span class="color-text-a">Phone .</span> contact@example.com</li>
                 <li class="color-a">
-                  <span class="color-text-a">Email .</span> +27 21 788 3119</li>
+                  <span class="color-text-a">Email .</span> +54 356 945234</li>
               </ul>
             </div>
           </div>
@@ -708,7 +704,7 @@
         <div class="col-sm-12 col-md-4 section-md-t3">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand">The Cooperative</h3>
+              <h3 class="w-title-a text-brand">The Company</h3>
             </div>
             <div class="w-body-a">
               <div class="w-body-a">
@@ -736,7 +732,6 @@
             </div>
           </div>
         </div>
-<!--
         <div class="col-sm-12 col-md-4 section-md-t3">
           <div class="widget-a">
             <div class="w-header-a">
@@ -768,7 +763,6 @@
         </div>
       </div>
     </div>
--->
   </section>
   <footer>
     <div class="container">
@@ -781,7 +775,10 @@
               </li>
               <li class="list-inline-item">
                 <a href="#">About</a>
-              </li>  
+              </li>
+              <li class="list-inline-item">
+                <a href="#">Property</a>
+              </li>
               <li class="list-inline-item">
                 <a href="#">Blog</a>
               </li>
@@ -822,7 +819,7 @@
           <div class="copyright-footer">
             <p class="copyright color-text-a">
               &copy; Copyright
-              <span class="color-a">Muizenberg Electricity Cooperative</span> All Rights Reserved.
+              <span class="color-a">EstateAgency</span> All Rights Reserved.
             </p>
           </div>
           <div class="credits">
@@ -832,10 +829,7 @@
               Licensing information: https://bootstrapmade.com/license/
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
             -->
-         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a><br>
-         Modified by <a href="https://digit0.rf.gd" target="new">digit</a><br>
-         Hosted by <a href="https://netbones.co.za" target="new">Netbones Solutions</a>
-
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
           </div>
         </div>
       </div>

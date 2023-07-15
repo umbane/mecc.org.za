@@ -73,7 +73,10 @@
           <li class="nav-item">
             <a class="nav-link" href="https://muizenmesh.co.za/wp/web/mecc/" target="new">Blog</a>
           </li>
-    
+
+      
+        
+       
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -154,11 +157,11 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Muizenberg Electricity Cooperative
+                    <p class="intro-title-top">Muizenberg Energy Co-Oprative
                       <br>Cape Town</p>
                     <h1 class="intro-title mb-4">
                       <span class="color-b">Muizenberg</span>
-                      <br>Electricity Cooperative</h1>
+                      <br>Energy Co-Oprative</h1>
                     <p class="intro-subtitle intro-price">
                       <a href="https://form.jotform.com/231292009197557" target="new"><span class="price-a">Join Now</span></a>
                     </p>
@@ -203,7 +206,7 @@
   </div>
   <!--/ Carousel end /-->
  
- <h2 style="font-family:Poppins, sans-serif; font-size:40px; text-align:center; color:#2eca6a;">Power to the People.</h2>
+ <h1 style="font-family:Poppins, sans-serif; font-size:80px; text-align:center; color:#2eca6a;">Be the change you want to see.</h1>
 
  <center><img src="img/mec-logo.jpg" width="130"></center>
   
@@ -214,8 +217,10 @@
           <div class="title-box-d">
 
                     <p class="comment-description">
-                We are are incorporating as an electricity cooperative. Join us on our journey as we seek solutions to local energy resiliance by harnessing the power of community economics, collective bargaining, volunteerism, mutual aid, and social solidarity.
-                 </p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
+                    ipsam temporibus maiores
+                    quae natus libero optio, at qui beatae ducimus placeat debitis voluptates amet corporis.
+                  </p>
                   
            </div>
            </div>
@@ -243,7 +248,9 @@
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                DIY Battery Storage Kits, designed by our team.  Direct OEM Components sourced locally and globally. Prototyping & Design of Home Energy Systems.
+                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
+                convallis a pellentesque
+                nec, egestas non nisi.
               </p>
             </div>
             <div class="card-footer-c">
@@ -265,7 +272,9 @@
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                We are building a database related to residential home energy & storage systems, including appropriate and intermediate technology solutions for informal housing.
+                Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Mauris blandit
+                aliquet elit, eget tincidunt
+                nibh pulvinar a.
               </p>
             </div>
             <div class="card-footer-c">
@@ -287,7 +296,9 @@
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                Access courses, education modules and certification via the cooperative.
+                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
+                convallis a pellentesque
+                nec, egestas non nisi.
               </p>
             </div>
             <div class="card-footer-c">
@@ -1097,7 +1108,8 @@
             </div>
           </div>
         </div>
-                
+        
+        
         <div class="col-sm-12 col-md-4 section-md-t3">
           <div class="widget-a">
             <div class="w-header-a">
@@ -1130,7 +1142,7 @@
       </div>
     </div>
     
- -->
+    -->
     
   </section>
   
@@ -1165,7 +1177,7 @@
           <div class="socials-a">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="https://www.facebook.com/groups/890884558995990">
+                <a href="#">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
               </li>
@@ -1205,9 +1217,8 @@
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
             -->
             Designed by <a href="https://bootstrapmade.com/" target="new">BootstrapMade</a><br>
-            Modified by <a href="https://digit0.rf.gd" target="new">digit</a><br>
-            Hosted by <a href="https://netbones.co.za" target="new">Netbones Solutions</a>          
-</div>
+            Modified by <a href="http://digit0.rf.gd" target="new">digit</a>
+          </div>
         </div>
       </div>
     </div>
