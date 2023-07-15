@@ -1,7 +1,7 @@
-==Welcome to the Muizenberg Electricity Cooperative==
+##Welcome to the Muizenberg Electricity Cooperative##
 This is our website repo.
 
-==Details==
+##Details##
 Based upon a modified Bootstrap Theme
 
 Theme Name: EstateAgency
