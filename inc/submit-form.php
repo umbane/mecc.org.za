@@ -22,13 +22,26 @@ $stmt = $mysqli->prepare($query);
 $stmt->bind_param('sssss', $name, $surname, $email, $issue, $message);
 $stmt->execute();
 
-// Send an email to the webmaster
-$to = "webmaster@example.com";
-$subject = "New form submission";
-$body = "Issue: $issue\n\nMessage:\n$message";
-mail($to, $subject, $body);
 
-// Redirect the user to athank you page
-header("Location: thank-you.html");
-exit();
+// Send email
+$to = "hello@mecc.org.za"; // Replace with your own email address
+$subject = "New message from contact form";
+$body = "You have received a new message from the contact form on your website.\n\n" .
+        "Name: $name $surname\n" .
+        "Email: $email\n" .
+        "Issue: $issue\n" .
+        "Message:\n$message\n";
+$headers = "From: $email\n";
+$headers .= "Reply-To: $email\n";
+
+if(mail($to, $subject, $body, $headers)) {
+    // Redirect to thank-you page on success
+    header("Location: thank-you.html");
+    exit;
+} else {
+    // Redirect to error page on failure
+    header("Location: error.html");
+    exit;
+}
+
 ?>
