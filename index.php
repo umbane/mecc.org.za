@@ -73,10 +73,7 @@
           <li class="nav-item">
             <a class="nav-link" href="https://muizenmesh.co.za/wp/web/mecc/" target="new">Blog</a>
           </li>
-
-      
-        
-       
+    
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
@@ -86,7 +83,7 @@
               <a class="dropdown-item" href="https://www.muizenmesh.co.za/wiki/index.php/Muizenberg_Electricity_Cooperative" target="new">Wiki</a>
               <a class="dropdown-item" href="https://bit.ly/battery-day-discord" target="new">Discord Server</a>
                <a class="dropdown-item" href="https://linktr.ee/muizenvolt" target="new">Link Tree</a>
-             <a class="dropdown-item" href="https://www.facebook.com/groups/890884558995990" target="new">Face Book</a>
+             <a class="dropdown-item" href="https://www.facebook.com/groups/890884558995990" target="new">Facebook</a>
                <a class="dropdown-item" href="https://muizenmesh.co.za/store/" target="new">Store</a>
             </div>
           </li>
@@ -101,7 +98,8 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="https://form.jotform.com/231292009197557" target="new">Membership</a>
               <a class="dropdown-item" href="https://www.jotform.com/213201262687047" target="new">Survey</a>
-            </div>
+              <a class="dropdown-item" href="assets/constitution.pdf" target="new">Constitution</a>            
+          </div>
           </li>
           
           <li class="nav-item">
@@ -157,11 +155,11 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="intro-body">
-                    <p class="intro-title-top">Muizenberg Energy Co-Oprative
+                    <p class="intro-title-top">Community Energy Movement
                       <br>Cape Town</p>
                     <h1 class="intro-title mb-4">
                       <span class="color-b">Muizenberg</span>
-                      <br>Energy Co-Oprative</h1>
+                      <br>Electricity Cooperative</h1>
                     <p class="intro-subtitle intro-price">
                       <a href="https://form.jotform.com/231292009197557" target="new"><span class="price-a">Join Now</span></a>
                     </p>
@@ -205,8 +203,8 @@
     </div>
   </div>
   <!--/ Carousel end /-->
- 
- <h1 style="font-family:Poppins, sans-serif; font-size:80px; text-align:center; color:#2eca6a;">Be the change you want to see.</h1>
+<br> 
+ <h2 style="font-family:Poppins, sans-serif; font-size:40px; text-align:center; color:#2eca6a;">'Power to the People'</h2>
 
  <center><img src="img/mec-logo.jpg" width="130"></center>
   
@@ -215,12 +213,9 @@
        
           <div class="col-md-10 offset-md-1 col-lg-10 offset-lg-1">
           <div class="title-box-d">
-
                     <p class="comment-description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
-                    ipsam temporibus maiores
-                    quae natus libero optio, at qui beatae ducimus placeat debitis voluptates amet corporis.
-                  </p>
+                Incorporating as an electricity cooperative will be the beginning of a great adventure. Join us on our journey as we seek solutions to local energy resiliance, harnessing the power of community economics, deploy collective bargaining, mutual aid, volunteerism and social solidarity in our quest to defeat loadshedding. Make electricity more affordible, renewable and readily available.
+                 </p>
                   
            </div>
            </div>
@@ -248,9 +243,7 @@
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
-                convallis a pellentesque
-                nec, egestas non nisi.
+                DIY Battery Storage Kits, designed by our tech team. <br>OEM Components sourced locally and globally. <br>Rapid Prototyping & Design of Home Energy Systems.
               </p>
             </div>
             <div class="card-footer-c">
@@ -272,9 +265,7 @@
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Mauris blandit
-                aliquet elit, eget tincidunt
-                nibh pulvinar a.
+                We are building a database of residential home energy & storage systems, including appropriate and intermediate technology solutions, applicable to informal housing.
               </p>
             </div>
             <div class="card-footer-c">
@@ -296,9 +287,7 @@
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Praesent sapien massa,
-                convallis a pellentesque
-                nec, egestas non nisi.
+                Life-long learning. Access courses, education modules and certification via the cooperative. Each One, Teach One.
               </p>
             </div>
             <div class="card-footer-c">
@@ -398,7 +387,7 @@
               <div class="card-overlay-a-content">
                 <div class="card-header-a">
                   <h2 class="card-title-a">
-                    <a href="https://form.jotform.com/231292009197557" class="link-a" target="_new">Muizenberg Energy Co-Oprative</a>
+                    <a href="https://form.jotform.com/231292009197557" class="link-a" target="_new">Muizenberg Energy Cooperative<br> Member Drive</a>
                   </h2>
                 </div>
                 <div class="card-body-a">
@@ -438,8 +427,8 @@
                     </li>
                   </ul>
                 </div>
-                -->
-                
+   -->             
+   <!--             
               </div>
             </div>
           </div>
@@ -447,14 +436,14 @@
         <div class="carousel-item-b">
           <div class="card-box-a card-shadow">
             <div class="img-box-a">
-              <img src="img/property-7.jpg" alt="" class="img-a img-fluid">
+              <img src="img/mlist.jpg" alt="" class="img-a img-fluid">
             </div>
             <div class="card-overlay">
               <div class="card-overlay-a-content">
                 <div class="card-header-a">
                   <h2 class="card-title-a">
-                    <a href="property-single.html">245 Azabu
-                      <br /> Nishi Park let</a>
+                    <a href="https://mailchimp.com">245 Azabu
+                      <br /> Join our Mailing List</a>
                   </h2>
                 </div>
                 <div class="card-body-a">
@@ -540,6 +529,7 @@
         </div>
       </div>
     </div>
+-->
   </section>
   <!--/ Property End /-->
   
@@ -610,14 +600,14 @@
         <div class="col-md-4">
           <div class="card-box-d">
             <div class="card-img-d">
-              <img src="img/agent-4.jpg" alt="" class="img-d img-fluid">
+              <img src="img/chad.jpg" alt="" class="img-d img-fluid">
             </div>
             <div class="card-overlay card-overlay-hover">
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">Margaret Sotillo
-                      <br> Escala</a>
+                    <a href="agent-single.html" class="link-two">Chad
+                      <br> Cupido</a>
                   </h3>
                 </div>
               </div>
@@ -672,14 +662,14 @@
         <div class="col-md-4">
           <div class="card-box-d">
             <div class="card-img-d">
-              <img src="img/agent-1.jpg" alt="" class="img-d img-fluid">
+              <img src="img/gien.png" alt="" class="img-d img-fluid">
             </div>
             <div class="card-overlay card-overlay-hover">
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">Stiven Spilver
-                      <br> Darw</a>
+                    <a href="agent-single.html" class="link-two">James Gien
+                      <br>Wong</a>
                   </h3>
                 </div>
               </div>
@@ -735,14 +725,14 @@
         <div class="col-md-4">
           <div class="card-box-d">
             <div class="card-img-d">
-              <img src="img/agent-2.jpg" alt="" class="img-d img-fluid">
+              <img src="img/dav2.jpg" alt="" class="img-d img-fluid">
             </div>
             <div class="card-overlay card-overlay-hover">
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">Stiven Spilver
-                      <br> Darw</a>
+                    <a href="agent-single.html" class="link-two">David Robert
+                      <br> Lewis</a>
                   </h3>
                 </div>
               </div>
@@ -752,9 +742,9 @@
                 </p>
                 <div class="info-agents color-a">
                   <p>
-                    <strong>Phone: </strong> +54 356 945234</p>
+                    <strong>Phone: </strong> +27 83 502 7629</p>
                   <p>
-                    <strong>Email: </strong> agents@example.com</p>
+                    <strong>Email: </strong> davdev@netbones.co.za</p>
                 </div>
               </div>
               <div class="card-footer-d">
@@ -1089,10 +1079,10 @@
                     <i class="fa fa-angle-right"></i> <a href="#">Site Map</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="fa fa-angle-right"></i> <a href="#">Legal</a>
+                    <i class="fa fa-angle-right"></i> <a href="legal.html">Legal</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="fa fa-angle-right"></i> <a href="#">Agent Admin</a>
+                    <i class="fa fa-angle-right"></i> <a href="#">Member Admin</a>
                   </li>
                   <li class="item-list-a">
                     <i class="fa fa-angle-right"></i> <a href="#">Careers</a>
@@ -1101,15 +1091,14 @@
                     <i class="fa fa-angle-right"></i> <a href="#">Affiliate</a>
                   </li>
                   <li class="item-list-a">
-                    <i class="fa fa-angle-right"></i> <a href="#">Privacy Policy</a>
+                    <i class="fa fa-angle-right"></i> <a href="privacy.html">Privacy Policy</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        
-        
+                
         <div class="col-sm-12 col-md-4 section-md-t3">
           <div class="widget-a">
             <div class="w-header-a">
@@ -1142,7 +1131,7 @@
       </div>
     </div>
     
-    -->
+ -->
     
   </section>
   
@@ -1177,7 +1166,7 @@
           <div class="socials-a">
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.facebook.com/groups/890884558995990">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
               </li>
@@ -1217,8 +1206,9 @@
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
             -->
             Designed by <a href="https://bootstrapmade.com/" target="new">BootstrapMade</a><br>
-            Modified by <a href="http://digit0.rf.gd" target="new">digit</a>
-          </div>
+            Modified by <a href="https://digit0.rf.gd" target="new">digit</a><br>
+            Hosted by <a href="https://netbones.co.za" target="new">Netbones Solutions</a>          
+</div>
         </div>
       </div>
     </div>
