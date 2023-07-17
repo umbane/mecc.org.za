@@ -1,10 +1,12 @@
 <?php
-// Sanitize the user input data
-$name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
-$surname = filter_input(INPUT_POST, 'surname', FILTER_SANITIZE_STRING);
+
+// Sanitize form inputs
+$firstname = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+$surname = filter_input(INPUT_POST, 'surname', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-$issue = filter_input(INPUT_POST, 'issue', FILTER_SANITIZE_STRING);
-$message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING);
+$issue = filter_input(INPUT_POST, 'issue', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+$message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+
 
 // Validate the user input data
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -12,7 +14,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 }
 
 // Connect to the MySQL database
-$mysqli = new mysqli('localhost', 'username', 'password', 'contact_form_db');
+$mysqli = new mysqli('localhost', 'sexthera_contact_form_user', 'R@ZqV4iD^!T-', 'sexthera_contact_form_db');
 
 // Insert the user input data into the database
 $query = "INSERT INTO form_submissions (name, surname, email, issue, message) VALUES (?, ?, ?, ?, ?)";
