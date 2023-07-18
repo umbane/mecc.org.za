@@ -1,7 +1,7 @@
 <?php
 
 // Sanitize form inputs
-$firstname = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+$name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 $surname = filter_input(INPUT_POST, 'surname', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
 $issue = filter_input(INPUT_POST, 'issue', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
@@ -17,11 +17,12 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 $mysqli = new mysqli('localhost', 'sexthera_contact_form_user', 'R@ZqV4iD^!T-', 'sexthera_contact_form_db');
 
 // Insert the user input data into the database
-$query = "INSERT INTO form_submissions (name, surname, email, issue, message) VALUES (?, ?, ?, ?, ?)";
+$query = "INSERT INTO contact_form (name, surname, email, issue, message) VALUES (?, ?, ?, ?, ?)";
 $stmt = $mysqli->prepare($query);
 $stmt->bind_param('sssss', $name, $surname, $email, $issue, $message);
 $stmt->execute();
 
+<<<<<<< HEAD
 
 // Send email
 $to = "hello@mecc.org.za"; // Replace with your own email address
@@ -44,4 +45,15 @@ if(mail($to, $subject, $body, $headers)) {
     exit;
 }
 
+=======
+// Send an email to the webmaster
+$to = "hello@mecc.co.za";
+$subject = "New form submission";
+$body = "Issue: $issue\n\nMessage:\n$message";
+mail($to, $subject, $body);
+
+// Redirect the user to a thank you page
+header("Location: thank-you.html");
+exit();
+>>>>>>> da3d93e454ceee6348b092e9edda2344ef61c2b9
 ?>
