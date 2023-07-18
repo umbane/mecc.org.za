@@ -335,7 +335,7 @@
               <div class="card-overlay-a-content">
                 <div class="card-header-a">
                   <h2 class="card-title-a">
-                    <a href="property-single.html">
+                    <a href="https://opencollective.com/muizenberg-cooperative/updates/open-source-energy-festival-21-june-2023">
                       <br /> Muizenberg Energy Festival</a>
                   </h2>
                 </div>
@@ -606,7 +606,7 @@
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">Chad
+                    <a href="members.html" class="link-two">Chad
                       <br> Cupido</a>
                   </h3>
                 </div>
@@ -619,7 +619,7 @@
                   <p>
                     <strong>Phone: </strong> +54 356 945234</p>
                   <p>
-                    <strong>Email: </strong> agents@example.com</p>
+                    <strong>Email: </strong> hello@mecc.org.za</p>
                 </div>
               </div>
               <div class="card-footer-d">
@@ -668,7 +668,7 @@
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">James Gien
+                    <a href="members.html" class="link-two">James Gien
                       <br>Wong</a>
                   </h3>
                 </div>
@@ -681,7 +681,7 @@
                   <p>
                     <strong>Phone: </strong> +54 356 945234</p>
                   <p>
-                    <strong>Email: </strong> agents@example.com</p>
+                    <strong>Email: </strong> hello@mecc.org.za</p>
                 </div>
               </div>
               <div class="card-footer-d">
@@ -731,15 +731,14 @@
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">David Robert
+                    <a href="members.html" class="link-two">David Robert
                       <br> Lewis</a>
                   </h3>
                 </div>
               </div>
               <div class="card-body-d">
                 <p class="content-d color-text-a">
-                  Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
-                </p>
+                  David Robert Lewis is a digital informatics specialist, published writer, activist and hacktivist.                 </p>
                 <div class="info-agents color-a">
                   <p>
                     <strong>Phone: </strong> +27 83 502 7629</p>
