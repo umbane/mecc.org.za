@@ -103,7 +103,7 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="https://muizenmesh.co.za/store/contact-us" target="new">Contact</a>
+            <a class="nav-link" href="contact.html" target="new">Contact</a>
           </li>
         </ul>
       </div>

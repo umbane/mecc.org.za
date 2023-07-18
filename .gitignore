@@ -1,0 +1,8 @@
+register/inc/config.php
+register/test*
+register/error.log
+register/*.bak
+register/*.old
+*.bak
+*.old
+error.log
