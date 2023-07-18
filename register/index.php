@@ -187,6 +187,27 @@ if (empty(trim($_POST["nat"]))) {
      }   
    mysqli_close($conn);
 }
+
+// Send email
+$to = "hello@mecc.org.za"; 
+$subject = "New member registration";
+$body = "You have received a new member registration on the mecc website.\n\n" .
+        "Name: $name $last_name\n" .
+        "Email: $email\n" ;
+        
+$headers = "From: $email\n";
+$headers .= "Reply-To: $email\n";
+
+if(mail($to, $subject, $body, $headers)) {
+    // Redirect to thank-you page on success
+    header("Location: thank-you.html");
+    exit;
+} else {
+    // Redirect to error page on failure
+    header("Location: error.html");
+    exit;
+}
+
 ?>
 
 <!DOCTYPE html>
