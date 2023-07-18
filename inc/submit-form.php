@@ -22,10 +22,8 @@ $stmt = $mysqli->prepare($query);
 $stmt->bind_param('sssss', $name, $surname, $email, $issue, $message);
 $stmt->execute();
 
-<<<<<<< HEAD
-
 // Send email
-$to = "hello@mecc.org.za"; // Replace with your own email address
+$to = "hello@mecc.org.za"; 
 $subject = "New message from contact form";
 $body = "You have received a new message from the contact form on your website.\n\n" .
         "Name: $name $surname\n" .
@@ -45,7 +43,7 @@ if(mail($to, $subject, $body, $headers)) {
     exit;
 }
 
-=======
+
 // Send an email to the webmaster
 $to = "hello@mecc.co.za";
 $subject = "New form submission";
@@ -55,5 +53,5 @@ mail($to, $subject, $body);
 // Redirect the user to a thank you page
 header("Location: thank-you.html");
 exit();
->>>>>>> da3d93e454ceee6348b092e9edda2344ef61c2b9
+
 ?>
