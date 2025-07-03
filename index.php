@@ -80,15 +80,48 @@
               Sites
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="https://www.muizenmesh.co.za/wiki/index.php/Muizenberg_Electricity_Cooperative" target="new">Wiki</a>
+              <a class="dropdown-item" href="https://www.youtube.com/@electrocoop" target="new">Channel @ElectroCoop</a>
               <a class="dropdown-item" href="https://bit.ly/battery-day-discord" target="new">Discord Server</a>
-               <a class="dropdown-item" href="https://linktr.ee/muizenvolt" target="new">Link Tree</a>
-             <a class="dropdown-item" href="https://www.facebook.com/groups/890884558995990" target="new">Facebook</a>
-               <a class="dropdown-item" href="https://muizenmesh.co.za/store/" target="new">Store</a>
-            </div>
+              <a class="dropdown-item" href="https://www.facebook.com/groups/890884558995990" target="new">Facebook Group</a>
+              <a class="dropdown-item" href="gallery.html" target="new">Gallery</a>
+              <a class="dropdown-item" href="https://linktr.ee/muizenvolt" target="new">LinkTree</a>
+              <a class="dropdown-item" href="https://webmail.mecc.org.za/" target="new">Mail</a>
+              <a class="dropdown-item" href="https://muizenmesh.co.za/store/" target="new">Store</a>
+              <a class="dropdown-item" href="https://www.muizenmesh.co.za/wiki/index.php/Muizenberg_Electricity_Cooperative" target="new">Wiki</a>
+          </div>
           </li>
-          
-          
+   
+      
+
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+    aria-haspopup="true" aria-expanded="false">
+    Info
+  </a>
+  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+   <a class="dropdown-item dropdown-toggle" href="#" id="fundingDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Funding Portal
+    </a>
+    <div class="dropdown-menu" aria-labelledby="fundingDropdown">
+      <a class="dropdown-item" href="https://docs.google.com/document/d/1f7Bsavx6QqmeqgpW1wnfZn4-gLsJ3ilYZt5RFWopmdE/edit?usp=sharing">MOU</a>
+      <a class="dropdown-item" href="https://1drv.ms/w/s!AmaHEzQqAvWBgRkLi8BdzY1Bj9J7?e=bbzWCR">Business Plan</a>
+     <!--  Add more sub-menu items if needed -->
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item sub-menu" href="https://opencollective.com/muizenberg-cooperative" target="_blank">OpenCollective</a>
+    </div>
+    <a class="dropdown-item" href="https://form.jotform.com/231292009197557" target="_blank">Membership</a>
+    <a class="dropdown-item" href="https://www.jotform.com/213201262687047" target="_blank">Survey</a>
+    <a class="dropdown-item" href="assets/constitution.pdf" target="_blank">Constitution</a>
+    <a class="dropdown-item" href="principles.html" target="_blank">Principles</a>
+  </div>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+</li>
+
+
+ 
+    <!--      
        
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -96,18 +129,24 @@
               Forms
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="https://form.jotform.com/231292009197557" target="new">Membership</a>
-              <a class="dropdown-item" href="https://www.jotform.com/213201262687047" target="new">Survey</a>
-              <a class="dropdown-item" href="assets/constitution.pdf" target="new">Constitution</a>            
+              <a class="dropdown-item dropdown-toggle" target="_blank" href="#">Funding Portal</a>
+		<div class="dropdown-submenu">
+              <a class="dropdown-item sub-menu" href="https://opencollective.com/muizenberg-cooperative"  target="_blank">OpenCollective</a>
+              </div>
+              <a class="dropdown-item" href="https://form.jotform.com/231292009197557" target="_blank">Membership</a>
+              <a class="dropdown-item" href="https://www.jotform.com/213201262687047" target="_blank">Survey</a>
+              <a class="dropdown-item" href="assets/constitution.pdf" target="_blank">Constitution</a>   
+
+	      <a class="dropdown-item" href="principles.html" target="_blank">Principles</a>         
           </div>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="contact.html" target="new">Contact</a>
+            <a class="nav-link" href="contact.html" target="_blank">Contact</a>
           </li>
         </ul>
       </div>
-      
+      -->
       <!--
       <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
         data-target="#navbarTogglerDemo01" aria-expanded="false">
@@ -214,7 +253,7 @@
           <div class="col-md-10 offset-md-1 col-lg-10 offset-lg-1">
           <div class="title-box-d">
                     <p class="comment-description">
-                Incorporating as an electricity cooperative will be the beginning of a great adventure. Join us on our journey as we seek solutions to local energy resiliance, harnessing the power of community economics, deploy collective bargaining, mutual aid, volunteerism and social solidarity in our quest to defeat loadshedding. Make electricity more affordible, renewable and readily available.
+                Incorporating as an electricity cooperative is the beginning of a great adventure. Join us on our journey as we seek solutions to generating local energy resiliance, harnessing the power of community economics, deploying collective bargaining, mutual aid, volunteerism and social solidarity in our quest to defeat loadshedding. Make electricity cleaner, more affordible, renewable and readily available.
                  </p>
                   
            </div>
@@ -243,7 +282,7 @@
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                DIY Battery Storage Kits, designed by our tech team. <br>OEM Components sourced locally and globally. <br>Rapid Prototyping & Design of Home Energy Systems.
+                DIY Battery Storage Kits & Wind Generators designed by our tech team. <br>OEM Components sourced locally and globally. <br>Rapid Prototyping & Design of Home Energy Systems.
               </p>
             </div>
             <div class="card-footer-c">
@@ -265,7 +304,16 @@
             </div>
             <div class="card-body-c">
               <p class="content-c">
-                We are building a database of residential home energy & storage systems, including appropriate and intermediate technology solutions, applicable to informal housing.
+                We are building a database of possiblity:  residential home energy & storage systems, including appropriate and intermediate technology solutions, applicable to both formal and informal housing.
+     <!-- Google tag (gtag.js) -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VKTHY8VT3S"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VKTHY8VT3S');
+     </script>
               </p>
             </div>
             <div class="card-footer-c">
@@ -785,14 +833,14 @@
         <div class="col-md-4">
           <div class="card-box-d">
             <div class="card-img-d">
-              <img src="img/agent-5.jpg" alt="" class="img-d img-fluid">
+              <img src="img/gareth.jpg" alt="" class="img-d img-fluid">
             </div>
             <div class="card-overlay card-overlay-hover">
               <div class="card-header-d">
                 <div class="card-title-d align-self-center">
                   <h3 class="title-d">
-                    <a href="agent-single.html" class="link-two">Emma Toledo
-                      <br> Cascada</a>
+                    <a href="members.html" class="link-two">Gareth
+                      <br> Sherword</a>
                   </h3>
                 </div>
               </div>
@@ -847,7 +895,7 @@
 
 <!--  / Agents End /-->
 
-  <!--/ News Star 
+  <!-- News Star><--> 
   <section class="section-news section-t8">
     <div class="container">
       <div class="row">
@@ -856,15 +904,23 @@
             <div class="title-box">
               <h2 class="title-a">Latest News</h2>
             </div>
+
+<!-- 1:1 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="assets/campaign.webm"></iframe>
+</div>
+
+
             <div class="title-link">
-              <a href="blog-grid.html">All News
+              <a href="news.html">All News
                 <span class="ion-ios-arrow-forward"></span>
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div id="new-carousel" class="owl-carousel owl-theme">
+    
+  <div id="new-carousel" class="owl-carousel owl-theme">
         <div class="carousel-item-c">
           <div class="card-box-b card-shadow news-box">
             <div class="img-box-b">
@@ -961,7 +1017,7 @@
     </div>
   </section>
 
-  News End /-->
+   <!-- News End -->
 
   <!--/ Testimonials Star 
   <section class="section-testimonials section-t8 nav-arrow-a">
