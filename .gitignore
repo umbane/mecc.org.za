@@ -6,3 +6,6 @@ register/*.old
 *.bak
 *.old
 error.log
+
+# Local Netlify folder
+.netlify
