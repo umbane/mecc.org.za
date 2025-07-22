@@ -6,6 +6,7 @@ register/*.old
 *.bak
 *.old
 error.log
-
+*swo
+*swp
 # Local Netlify folder
 .netlify
