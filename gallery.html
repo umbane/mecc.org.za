@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Material Minimal CSS -->
     <link
       rel="stylesheet"
@@ -15,6 +23,29 @@
     />
   </head>
   <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">MECC Gallery</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery3.html">Modal Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div style="margin-top: 80px;"></div>
     
 <!-- Background image -->
 <div class="bg-image" 
@@ -32,21 +63,23 @@
       <!-- Controls -->
       <div class="d-flex justify-content-center mb-4">
         <button
-          class="carousel-control-prev position-relative"
+          class="carousel-control-prev position-relative btn btn-outline-light me-3"
           type="button"
           data-mdb-target="#carouselMultiItemExample"
           data-mdb-slide="prev"
+          style="width: 50px; height: 50px; border-radius: 50%;"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <i class="fas fa-chevron-left" aria-hidden="true"></i>
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next position-relative"
+          class="carousel-control-next position-relative btn btn-outline-light ms-3"
           type="button"
           data-mdb-target="#carouselMultiItemExample"
           data-mdb-slide="next"
+          style="width: 50px; height: 50px; border-radius: 50%;"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <i class="fas fa-chevron-right" aria-hidden="true"></i>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
@@ -85,7 +118,7 @@
                     <p class="card-text">
                         Delegates deliberate on energy microgrids and home power generation.
                     </p>
-                    <a href="index.php" class="btn btn-primary">Home</a>
+                    <a href="index.html" class="btn btn-primary">Home</a>
                   </div>
                 </div>
               </div>
@@ -126,7 +159,7 @@
                     <p class="card-text">
                       Our food truckers provided hot beverages on a very cold winter's solstice.
                     </p>
-                    <a href="index.php" class="btn btn-primary">About</a>
+                    <a href="index.html" class="btn btn-primary">Home</a>
                   </div>
                 </div>
               </div>
@@ -160,7 +193,7 @@
                     <p class="card-text">
                       Our UnConference.
                     </p>
-                    <a href="index.php" class="btn btn-primary">Home</a>
+                    <a href="index.html" class="btn btn-primary">Home</a>
                   </div>
                 </div>
               </div>

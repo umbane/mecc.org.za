@@ -3,6 +3,20 @@
   command = "# no build command"
   publish = "."
 
+  ## Blog redirect to new WordPress.com site
+  [[redirects]]
+    from = "/wp/web/mecc/*"
+    to = "https://electricmesh.wordpress.com/:splat"
+    status = 301
+    force = true
+
+  ## Wiki redirect to GitHub repository wiki
+  [[redirects]]
+    from = "/wiki/*"
+    to = "https://github.com/umbane/mecc.org.za/wiki/:splat"
+    status = 301
+    force = true
+
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
   #[[redirects]]
