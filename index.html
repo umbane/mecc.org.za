@@ -11,8 +11,8 @@
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <!-- Google Fonts with display=swap for performance -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -85,8 +85,6 @@
               <a class="dropdown-item" href="https://www.facebook.com/groups/890884558995990" target="new">Facebook Group</a>
               <a class="dropdown-item" href="gallery.html" target="new">Gallery</a>
               <a class="dropdown-item" href="https://linktr.ee/muizenvolt" target="new">LinkTree</a>
-              <a class="dropdown-item" href="https://zohomail.mecc.org.za/" target="new">Mail</a>
-              <a class="dropdown-item" href="https://muizenmesh.co.za/store/" target="new">Store</a>
               <a class="dropdown-item" href="video.html">Videos</a>
               <a class="dropdown-item" href="https://github.com/umbane/mecc.org.za/wiki" target="new">Wiki</a>
           </div>
@@ -100,9 +98,11 @@
     Info
   </a>
   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-   <a class="dropdown-item dropdown-toggle" href="#" id="fundingDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     <!--
+      <a class="dropdown-item dropdown-toggle" href="#" id="fundingDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       Funding Portal
     </a>
+     -->
     <div class="dropdown-menu" aria-labelledby="fundingDropdown">
       <a class="dropdown-item" href="https://docs.google.com/document/d/1f7Bsavx6QqmeqgpW1wnfZn4-gLsJ3ilYZt5RFWopmdE/edit?usp=sharing">MOU</a>
       <a class="dropdown-item" href="https://1drv.ms/w/s!AmaHEzQqAvWBgRkLi8BdzY1Bj9J7?e=bbzWCR">Business Plan</a>
@@ -110,8 +110,8 @@
       <div class="dropdown-divider"></div>
       <a class="dropdown-item sub-menu" href="https://opencollective.com/muizenberg-cooperative" target="_blank">OpenCollective</a>
     </div>
-    <a class="dropdown-item" href="https://form.jotform.com/231292009197557" target="_blank">Membership</a>
-    <a class="dropdown-item" href="https://www.jotform.com/213201262687047" target="_blank">Survey</a>
+    <a class="dropdown-item" href="/membership" target="_blank">Membership</a>
+    <a class="dropdown-item" href="/survey" target="_blank">Survey</a>
     <a class="dropdown-item" href="assets/constitution.pdf" target="_blank">Constitution</a>
     <a class="dropdown-item" href="principles.html" target="_blank">Principles</a>
   </div>
@@ -1404,6 +1404,12 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  
+  <!-- Performance Optimizations -->
+  <script src="js/performance-optimizations.js"></script>
+  
+  <!-- Navigation Component -->
+  <script src="inc/nav-component.js"></script>
 
 </body>
 </html>
