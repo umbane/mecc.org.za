@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Project Registration - Muizenberg Electricity Co-Op</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-barba="wrapper">
+
+  <div class="click-closed"></div>
+
+  <main data-barba="container" data-barba-namespace="project-registration">
+    <!-- Header Component Placeholder -->
+    <div id="header-placeholder"></div>
+  
+
+  <!--/ Intro Single star /-->
+  <section class="intro-single">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-8">
+          <div class="title-single-box">
+            <h1 class="title-single">Register Your Project</h1>
+            <span class="color-text-a">Share your solar or renewable energy project with our community</span>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Project Registration
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Intro Single End /-->
+
+  <!--/ Project Registration Form Section /-->
+  <section class="section-property section-t8">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="title-wrap d-flex justify-content-center">
+            <div class="title-box">
+              <h2 class="title-a">Project Details</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-10 offset-md-1">
+          <div class="title-box-d">
+            <p class="comment-description">
+              Help us build a comprehensive database of local solar and renewable energy projects. Your contribution helps us understand the energy landscape in our community.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-10 offset-md-1">
+          <div class="card-box-c" style="padding: 30px;">
+            <form name="project-registration" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/inc/thank-you-project.html">
+              <!-- Hidden field for spam protection -->
+              <input type="hidden" name="form-name" value="project-registration" />
+              <p style="display: none;">
+                <label>Don't fill this out if you're human: <input name="bot-field" /></label>
+              </p>
+              
+              <!-- Project Information -->
+              <h3 class="title-c mb-4">Project Information</h3>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <div class="form-group">
+                    <label class="pb-2" for="project_name">Project Name *</label>
+                    <input type="text" name="project_name" class="form-control form-control-lg form-control-a" id="project_name" placeholder="e.g., My Home Solar System" required>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="form-group">
+                    <label class="pb-2" for="project_type">Project Type *</label>
+                    <select name="project_type" class="form-control form-control-lg form-control-a" id="project_type" required>
+                      <option value="" selected disabled>--Select Project Type--</option>
+                      <option value="Solar">Solar</option>
+                      <option value="Wind">Wind</option>
+                      <option value="Hydro">Hydro</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                  <div class="form-group">
+                    <label class="pb-2" for="location">Location *</label>
+                    <input type="text" name="location" class="form-control form-control-lg form-control-a" id="location" placeholder="e.g., Muizenberg, Cape Town" required>
+                  </div>
+                </div>
+                <div class="col-md-12 mb-3">
+                  <div class="form-group">
+                    <label class="pb-2" for="description">Description</label>
+                    <textarea name="description" id="description" rows="3" class="form-control" placeholder="Briefly describe your project"></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Contact Information -->
+              <h3 class="title-c mb-4 mt-4">Contact Information (Optional)</h3>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <div class="form-group">
+                    <label class="pb-2" for="contact_name">Name</label>
+                    <input type="text" name="contact_name" class="form-control form-control-lg form-control-a" id="contact_name" placeholder="Your Name">
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="form-group">
+                    <label class="pb-2" for="contact_email">Email</label>
+                    <input type="email" name="contact_email" class="form-control form-control-lg form-control-a" id="contact_email" placeholder="your.email@example.com">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <button type="submit" class="btn btn-a">Submit Project</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Project Registration Form Section End /-->
+
+  <!-- Footer Component Placeholder -->
+  <div id="footer-placeholder"></div>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/scrollreveal/scrollreveal.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  
+  <!-- Header Component Loader -->
+  <script src="js/header-loader.js"></script>
+  
+  <!-- Footer Component Loader -->
+  <script src="js/footer-loader.js"></script>
+  
+  <!-- Navigation Component -->
+  <script src="inc/nav-component.js"></script>
+  
+  <!-- Performance Optimizations -->
+  <script src="js/performance-optimizations.js"></script>
+
+  <!-- Barba.js for page transitions -->
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://unpkg.com/@barba/css"></script>
+
+</body>
+</html>
