@@ -12,6 +12,11 @@ function loadHeader() {
         newScript.textContent = script.textContent;
         document.head.appendChild(newScript);
       }
+      
+      // Load navigation component after header is loaded
+      const navScript = document.createElement('script');
+      navScript.src = 'inc/nav-component.js';
+      document.head.appendChild(navScript);
     })
     .catch(error => {
       console.error('Error loading header:', error);
