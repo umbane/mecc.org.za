@@ -22,6 +22,9 @@ class MECCNavigation {
       'contact.html': '.nav-link[href="contact.html"]',
       'gallery.html': '.dropdown-item[href="gallery.html"]',
       'video.html': '.dropdown-item[href="video.html"]',
+      'presentation.html': '.dropdown-item[href="presentation.html"]',
+      'press.html': '.dropdown-item[href="press.html"]',
+      'timeline.html': '.dropdown-item[href="timeline.html"]',
       'membership.html': '.dropdown-item[href="membership.html"]',
       'principles.html': '.dropdown-item[href="principles.html"]',
       'survey.html': '.dropdown-item[href="survey.html"]'
