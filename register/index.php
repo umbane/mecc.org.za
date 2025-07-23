@@ -190,7 +190,9 @@ if (empty(trim($_POST["nat"]))) {
 
 /*
 // Send email
-$to = "hello@mecc.org.za"; 
+// Email functionality disabled - domain lost
+// $to = "hello@mecc.org.za";
+// Registration submissions should be handled through main contact form 
 $subject = "New member registration";
 $body = "You have received a new member registration on the mecc website.\n\n" .
         "Name: $name $last_name\n" .

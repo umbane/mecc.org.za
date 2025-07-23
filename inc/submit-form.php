@@ -23,7 +23,9 @@ $stmt->bind_param('sssss', $name, $surname, $email, $issue, $message);
 $stmt->execute();
 
 // Send email
-$to = "hello@mecc.org.za"; 
+// Email functionality disabled - domain lost
+// $to = "hello@mecc.org.za";
+// Form submissions are handled by Netlify Forms instead 
 $subject = "New message from contact form";
 $body = "You have received a new message from the contact form on your website.\n\n" .
         "Name: $name $surname\n" .
