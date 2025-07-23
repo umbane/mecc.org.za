@@ -6,7 +6,7 @@
   ## Blog redirect to new WordPress.com site
   [[redirects]]
     from = "/wp/web/mecc/*"
-    to = "https://electricmesh.wordpress.com/:splat"
+    to = "https://electromesh.wordpress.com/:splat"
     status = 301
     force = true
 
