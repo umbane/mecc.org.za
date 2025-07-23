@@ -30,12 +30,13 @@
   <link rel="stylesheet" href="css/time.css">
 </head>
 
-<body>
+<body data-barba="wrapper">
 
   <div class="click-closed"></div>
 
-  <!-- Header Component Placeholder -->
-  <div id="header-placeholder"></div>
+  <main data-barba="container" data-barba-namespace="timeline">
+    <!-- Header Component Placeholder -->
+    <div id="header-placeholder"></div>
 
   <!--/ Intro Single star /-->
   <section class="intro-single">
@@ -182,6 +183,10 @@
   
   <!-- Performance Optimizations -->
   <script src="js/performance-optimizations.js"></script>
+
+  <!-- Barba.js for page transitions -->
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://unpkg.com/@barba/css"></script>
 
 </body>
 </html>

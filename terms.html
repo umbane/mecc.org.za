@@ -27,12 +27,13 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-barba="wrapper">
 
   <div class="click-closed"></div>
 
-  <!-- Header Component Placeholder -->
-  <div id="header-placeholder"></div>
+  <main data-barba="container" data-barba-namespace="terms">
+    <!-- Header Component Placeholder -->
+    <div id="header-placeholder"></div>
 
   <!--/ Intro Single star /-->
   <section class="intro-single">
@@ -132,6 +133,10 @@
   
   <!-- Performance Optimizations -->
   <script src="js/performance-optimizations.js"></script>
+
+  <!-- Barba.js for page transitions -->
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://unpkg.com/@barba/css"></script>
 
   <script>
     // Set last updated date

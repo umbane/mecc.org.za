@@ -14,7 +14,7 @@
       referrerpolicy="no-referrer" 
     />
   </head>
-  <body>
+  <body data-barba="wrapper">
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
@@ -37,6 +37,7 @@
         </div>
       </div>
     </nav>
+    <main data-barba="container" data-barba-namespace="gallery3">
     <div style="margin-top: 80px;"></div>
 
 <!-- Modal gallery -->
@@ -185,5 +186,9 @@ integrity="sha512-0RxGTiFXp36+bSbJM+/QSTl1LDQ4pHdDZ8Ua9ZXl454qKSsYu228AOLHYfzx/r
 crossorigin="anonymous"
 referrerpolicy="no-referrer"
 ></script>
+
+<!-- Barba.js for page transitions -->
+<script src="https://unpkg.com/@barba/core"></script>
+<script src="https://unpkg.com/@barba/css"></script>
 </body>
 </html>

@@ -26,10 +26,11 @@
 <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 </head>
 
-<body>
+<body data-barba="wrapper">
 
 <div class="click-closed"></div>
 
+<main data-barba="container" data-barba-namespace="schedule">
 <!-- Header Component Placeholder -->
 <div id="header-placeholder"></div>
 
@@ -140,6 +141,13 @@
     
     <!-- Performance Optimizations -->
     <script src="js/performance-optimizations.js"></script>
+
+  <!-- Performance Optimizations -->
+    <script src="js/performance-optimizations.js"></script>
+
+    <!-- Barba.js for page transitions -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://unpkg.com/@barba/css"></script>
 
   </div>
 </body>
