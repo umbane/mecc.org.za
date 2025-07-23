@@ -1,0 +1,38 @@
+/* MuizenMesh Webring - Tokyo Theme */
+/* Japanese-inspired pink and purple colors */
+
+.webring-banner,
+webring-banner .webring-banner {
+    --webring-bg: #fef7f0 !important;
+    --webring-border: #ff6b9d !important;
+    --webring-text: #2d1b69 !important;
+    --webring-accent: #ff006e !important;
+    
+    background-color: var(--webring-bg) !important;
+    border-color: var(--webring-border) !important;
+    color: var(--webring-text) !important;
+}
+
+.webring-banner .webring-banner__title a,
+webring-banner .webring-banner__title a {
+    color: var(--webring-accent) !important;
+}
+
+.webring-banner .webring-banner__link,
+webring-banner .webring-banner__link {
+    color: var(--webring-accent) !important;
+}
+
+.webring-banner .webring-banner__info,
+webring-banner .webring-banner__info {
+    border-color: var(--webring-border) !important;
+    color: var(--webring-text) !important;
+}
+
+.webring-banner .webring-banner__info:hover,
+webring-banner .webring-banner__info:hover {
+    color: var(--webring-accent) !important;
+    border-color: var(--webring-accent) !important;
+}
+
+/* Usage: Add class="theme-tokyo" to your webring-banner element */

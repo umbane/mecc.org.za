@@ -1,0 +1,38 @@
+/* MuizenMesh Webring - Sunset Theme */
+/* Warm orange and yellow colors like a beach sunset */
+
+.webring-banner,
+webring-banner .webring-banner {
+    --webring-bg: #fff3e0 !important;
+    --webring-border: #ffcc02 !important;
+    --webring-text: #e65100 !important;
+    --webring-accent: #ff9800 !important;
+    
+    background-color: var(--webring-bg) !important;
+    border-color: var(--webring-border) !important;
+    color: var(--webring-text) !important;
+}
+
+.webring-banner .webring-banner__title a,
+webring-banner .webring-banner__title a {
+    color: var(--webring-accent) !important;
+}
+
+.webring-banner .webring-banner__link,
+webring-banner .webring-banner__link {
+    color: var(--webring-accent) !important;
+}
+
+.webring-banner .webring-banner__info,
+webring-banner .webring-banner__info {
+    border-color: var(--webring-border) !important;
+    color: var(--webring-text) !important;
+}
+
+.webring-banner .webring-banner__info:hover,
+webring-banner .webring-banner__info:hover {
+    color: var(--webring-accent) !important;
+    border-color: var(--webring-accent) !important;
+}
+
+/* Usage: Add class="theme-sunset" to your webring-banner element */

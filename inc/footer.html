@@ -1,0 +1,73 @@
+  <!--/ Footer Star /-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="socials-a">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/groups/890884558995990" target="_blank">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/@electrocoop" target="_blank">
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://bit.ly/battery-day-discord" target="_blank">
+                  <i class="fa fa-comments" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/umbane/carbon-project" target="_blank">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://linktr.ee/muizenvolt" target="_blank">
+                  <i class="fa fa-link" aria-hidden="true"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="copyright-footer">
+            <p class="copyright color-text-a">
+              &copy; Copyright <span id="current-year"></span>
+              <span class="color-a">Muizenberg Electricity Co-Op</span> All Rights Reserved.
+            </p>
+          </div>
+          <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a><br>
+            Modified by <a href="https://digit0.rf.gd" target="_blank">digit</a><br>
+            Hosted by <a href="https://netbones.co.za" target="_blank">Netbones Solutions</a>          
+          </div>
+          
+          <!-- MuizenMesh Webring -->
+          <div class="webring-container mt-3">
+            <link rel="stylesheet" href="css/themes/webring-theme-ocean.css">
+            <webring-banner class="theme-ocean">
+              <p>Member of the <a href="https://meshring.netlify.app">MuizenMesh Webring</a> webring</p>
+              <a href="https://meshring.netlify.app/prev">Previous</a>
+              <a href="https://meshring.netlify.app/random">Random</a>
+              <a href="https://meshring.netlify.app/next">Next</a>
+            </webring-banner>
+            <script async src="https://meshring.netlify.app/embed.js" charset="utf-8"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/ Footer End /-->
+
+  <script>
+    // Set current year automatically
+    document.addEventListener('DOMContentLoaded', function() {
+      const currentYear = new Date().getFullYear();
+      const yearElement = document.getElementById('current-year');
+      if (yearElement) {
+        yearElement.textContent = currentYear;
+      }
+    });
+  </script>

@@ -1,0 +1,38 @@
+/* MuizenMesh Webring - Dracula Theme */
+/* Dark purple theme inspired by Dracula colors */
+
+.webring-banner,
+webring-banner .webring-banner {
+    --webring-bg: #282a36 !important;
+    --webring-border: #6272a4 !important;
+    --webring-text: #f8f8f2 !important;
+    --webring-accent: #bd93f9 !important;
+    
+    background-color: var(--webring-bg) !important;
+    border-color: var(--webring-border) !important;
+    color: var(--webring-text) !important;
+}
+
+.webring-banner .webring-banner__title a,
+webring-banner .webring-banner__title a {
+    color: var(--webring-accent) !important;
+}
+
+.webring-banner .webring-banner__link,
+webring-banner .webring-banner__link {
+    color: var(--webring-accent) !important;
+}
+
+.webring-banner .webring-banner__info,
+webring-banner .webring-banner__info {
+    border-color: var(--webring-border) !important;
+    color: var(--webring-text) !important;
+}
+
+.webring-banner .webring-banner__info:hover,
+webring-banner .webring-banner__info:hover {
+    color: var(--webring-accent) !important;
+    border-color: var(--webring-accent) !important;
+}
+
+/* Usage: Add class="theme-dracula" to your webring-banner element */

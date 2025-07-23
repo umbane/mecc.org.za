@@ -1,0 +1,38 @@
+/* MuizenMesh Webring - Minimal Theme */
+/* Clean gray styling for minimal designs */
+
+.webring-banner,
+webring-banner .webring-banner {
+    --webring-bg: #ffffff !important;
+    --webring-border: #e9ecef !important;
+    --webring-text: #6c757d !important;
+    --webring-accent: #343a40 !important;
+    
+    background-color: var(--webring-bg) !important;
+    border-color: var(--webring-border) !important;
+    color: var(--webring-text) !important;
+}
+
+.webring-banner .webring-banner__title a,
+webring-banner .webring-banner__title a {
+    color: var(--webring-accent) !important;
+}
+
+.webring-banner .webring-banner__link,
+webring-banner .webring-banner__link {
+    color: var(--webring-accent) !important;
+}
+
+.webring-banner .webring-banner__info,
+webring-banner .webring-banner__info {
+    border-color: var(--webring-border) !important;
+    color: var(--webring-text) !important;
+}
+
+.webring-banner .webring-banner__info:hover,
+webring-banner .webring-banner__info:hover {
+    color: var(--webring-accent) !important;
+    border-color: var(--webring-accent) !important;
+}
+
+/* Usage: Add class="theme-minimal" to your webring-banner element */

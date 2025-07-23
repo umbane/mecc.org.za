@@ -1,0 +1,101 @@
+/* MuizenMesh Webring - All Themes */
+/* Include all available themes in one file */
+
+/* Ocean Theme - Blue ocean-inspired colors */
+.theme-ocean,
+.theme-ocean .webring-banner {
+    --webring-bg: #e3f2fd !important;
+    --webring-border: #90caf9 !important;
+    --webring-text: #0d47a1 !important;
+    --webring-accent: #1976d2 !important;
+}
+
+/* Sunset Theme - Warm orange and yellow colors */
+.theme-sunset,
+.theme-sunset .webring-banner {
+    --webring-bg: #fff3e0 !important;
+    --webring-border: #ffcc02 !important;
+    --webring-text: #e65100 !important;
+    --webring-accent: #ff9800 !important;
+}
+
+/* Dark Theme - Dark background with cyan accents */
+.theme-dark,
+.theme-dark .webring-banner {
+    --webring-bg: #212529 !important;
+    --webring-border: #495057 !important;
+    --webring-text: #f8f9fa !important;
+    --webring-accent: #0dcaf0 !important;
+}
+
+/* Minimal Theme - Clean gray styling */
+.theme-minimal,
+.theme-minimal .webring-banner {
+    --webring-bg: #ffffff !important;
+    --webring-border: #e9ecef !important;
+    --webring-text: #6c757d !important;
+    --webring-accent: #343a40 !important;
+}
+
+/* Tokyo Theme - Japanese-inspired pink and purple colors */
+.theme-tokyo,
+.theme-tokyo .webring-banner {
+    --webring-bg: #fef7f0 !important;
+    --webring-border: #ff6b9d !important;
+    --webring-text: #2d1b69 !important;
+    --webring-accent: #ff006e !important;
+}
+
+/* Dracula Theme - Dark purple theme inspired by Dracula colors */
+.theme-dracula,
+.theme-dracula .webring-banner {
+    --webring-bg: #282a36 !important;
+    --webring-border: #6272a4 !important;
+    --webring-text: #f8f8f2 !important;
+    --webring-accent: #bd93f9 !important;
+}
+
+/* Disco Theme - Retro neon colors with cyan and magenta */
+.theme-disco,
+.theme-disco .webring-banner {
+    --webring-bg: #1a0033 !important;
+    --webring-border: #ff00ff !important;
+    --webring-text: #ffffff !important;
+    --webring-accent: #00ffff !important;
+}
+
+/* Apply theme variables to all themed banners */
+[class*="theme-"] .webring-banner,
+[class*="theme-"] {
+    background-color: var(--webring-bg) !important;
+    border-color: var(--webring-border) !important;
+    color: var(--webring-text) !important;
+}
+
+[class*="theme-"] .webring-banner__title a {
+    color: var(--webring-accent) !important;
+}
+
+[class*="theme-"] .webring-banner__link {
+    color: var(--webring-accent) !important;
+}
+
+[class*="theme-"] .webring-banner__info {
+    border-color: var(--webring-border) !important;
+    color: var(--webring-text) !important;
+}
+
+[class*="theme-"] .webring-banner__info:hover {
+    color: var(--webring-accent) !important;
+    border-color: var(--webring-accent) !important;
+}
+
+/* Usage: Add one of these classes to your webring-banner element:
+   - theme-ocean
+   - theme-sunset  
+   - theme-dark
+   - theme-minimal
+   - theme-tokyo
+   - theme-dracula
+   - theme-disco
+*/
