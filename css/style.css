@@ -6,6 +6,22 @@
 */
 
 /*======================================
+//--//-->   TRANSITIONS
+======================================*/
+
+.barba-container {
+  transition: opacity 0.5s;
+}
+
+.barba-container.fade-out {
+  opacity: 0;
+}
+
+.barba-container.fade-in {
+  opacity: 1;
+}
+
+/*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
 

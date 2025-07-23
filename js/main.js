@@ -1,3 +1,23 @@
+document.addEventListener('DOMContentLoaded', function () {
+  barba.use(barbaCss);
+  barba.init({
+    transitions: [{
+      name: 'fade-transition',
+      leave: function(data) {
+        return new Promise(function(resolve) {
+          // Add a class to the leaving element to trigger the animation
+          data.current.container.classList.add('fade-out');
+          setTimeout(resolve, 500); // Match the animation duration
+        });
+      },
+      enter: function(data) {
+        // Remove the animation class after the transition is complete
+        data.next.container.classList.add('fade-in');
+      }
+    }]
+  });
+});
+
 (function ($) {
   "use strict";
   

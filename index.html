@@ -43,12 +43,13 @@
   ======================================================= -->
 </head>
 
-<body>
+<body data-barba="wrapper">
 
   <div class="click-closed"></div>
 
-  <!-- Header Component Placeholder -->
-  <div id="header-placeholder"></div>
+  <main data-barba="container" data-barba-namespace="home">
+    <!-- Header Component Placeholder -->
+    <div id="header-placeholder"></div>
 
   <!--/ Carousel Star /-->
   <div class="intro intro-carousel">
@@ -896,6 +897,10 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+  <!-- Barba.js for page transitions -->
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://unpkg.com/@barba/css"></script>
   
   <!-- Performance Optimizations -->
   <script src="js/performance-optimizations.js"></script>
