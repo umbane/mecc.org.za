@@ -1,48 +1,29 @@
 /* MuizenMesh Webring - Ocean Theme */
 /* Blue ocean-inspired colors perfect for coastal communities */
 
-.theme-ocean,
-webring-banner.theme-ocean,
-.webring-banner,
-webring-banner .webring-banner {
-    --webring-bg: #e3f2fd !important;
-    --webring-border: #90caf9 !important;
-    --webring-text: #0d47a1 !important;
-    --webring-accent: #1976d2 !important;
+webring-banner.theme-ocean {
+    --webring-bg: #e3f2fd;
+    --webring-border: #90caf9;
+    --webring-text: #0d47a1;
+    --webring-accent: #1976d2;
     
-    background-color: var(--webring-bg) !important;
-    border-color: var(--webring-border) !important;
-    color: var(--webring-text) !important;
+    background-color: var(--webring-bg);
+    border-color: var(--webring-border);
+    color: var(--webring-text);
 }
 
-.theme-ocean .webring-banner__title a,
-.webring-banner .webring-banner__title a,
-webring-banner.theme-ocean .webring-banner__title a,
-webring-banner .webring-banner__title a {
-    color: var(--webring-accent) !important;
+webring-banner.theme-ocean a {
+    color: var(--webring-accent);
 }
 
-.theme-ocean .webring-banner__link,
-.webring-banner .webring-banner__link,
-webring-banner.theme-ocean .webring-banner__link,
-webring-banner .webring-banner__link {
-    color: var(--webring-accent) !important;
+webring-banner.theme-ocean .webring-banner__info {
+    border-color: var(--webring-border);
+    color: var(--webring-text);
 }
 
-.theme-ocean .webring-banner__info,
-.webring-banner .webring-banner__info,
-webring-banner.theme-ocean .webring-banner__info,
-webring-banner .webring-banner__info {
-    border-color: var(--webring-border) !important;
-    color: var(--webring-text) !important;
-}
-
-.theme-ocean .webring-banner__info:hover,
-.webring-banner .webring-banner__info:hover,
-webring-banner.theme-ocean .webring-banner__info:hover,
-webring-banner .webring-banner__info:hover {
-    color: var(--webring-accent) !important;
-    border-color: var(--webring-accent) !important;
+webring-banner.theme-ocean .webring-banner__info:hover {
+    color: var(--webring-accent);
+    border-color: var(--webring-accent);
 }
 
 /* Usage: Add class="theme-ocean" to your webring-banner element */
