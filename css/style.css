@@ -671,15 +671,21 @@ a:hover {
   border-left: 4px solid #2eca6a;
   border-right: 0;
   border-bottom: 0;
-  -webkit-transform: translate3d(0px, -40px, 0px);
-  transform: translate3d(0px, -40px, 0px);
   opacity: 0;
-  filter: alpha(opacity=0);
   visibility: hidden;
-  transition: all 0.5s cubic-bezier(0.3, 0.65, 0.355, 1) 0s, opacity 0.31s ease 0s, height 0s linear 0.36s;
+  transition: opacity 0.3s ease-in-out;
   margin: 0;
   border-radius: 0;
   padding: 12px 0;
+  position: absolute;
+  top: 100%; /* Position below the dropdown toggle */
+  left: 0;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.navbar-default .dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item {
