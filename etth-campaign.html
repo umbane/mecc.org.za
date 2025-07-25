@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ETTH Campaign - Energy To The Home | Muizenberg Electricity Co-Op</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ETTH, Energy To The Home, open net metering, smart meters, prepaid meters, energy democracy, South Africa" name="keywords">
+  <meta content="Join our ETTH (Energy To The Home) campaign to free prepaid meters from monopoly capital and demand open net metering for energy democracy in South Africa." name="description">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://umbane.netlify.app/etth-campaign.html">
+  <meta property="og:title" content="ETTH Campaign - Energy To The Home | Muizenberg Electricity Co-Op">
+  <meta property="og:description" content="Join our ETTH campaign to free prepaid meters from monopoly capital and demand open net metering for energy democracy in South Africa.">
+  <meta property="og:image" content="https://umbane.netlify.app/img/blackouts.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://umbane.netlify.app/etth-campaign.html">
+  <meta property="twitter:title" content="ETTH Campaign - Energy To The Home | Muizenberg Electricity Co-Op">
+  <meta property="twitter:description" content="Join our ETTH campaign to free prepaid meters from monopoly capital and demand open net metering for energy democracy in South Africa.">
+  <meta property="twitter:image" content="https://umbane.netlify.app/img/blackouts.jpg">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Custom styles for social sharing -->
+  <style>
+    .social-share-buttons {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .social-share-buttons .btn {
+      margin: 5px;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      color: white;
+      display: inline-block;
+      transition: all 0.3s ease;
+    }
+    .social-share-buttons .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      color: white;
+      text-decoration: none;
+    }
+    .btn-facebook { background-color: #3b5998; }
+    .btn-twitter { background-color: #1da1f2; }
+    .btn-linkedin { background-color: #0077b5; }
+    .btn-whatsapp { background-color: #25d366; }
+    .btn-email { background-color: #dd4b39; }
+    .campaign-hero {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('img/blackouts.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .campaign-stats {
+      background-color: #f8f9fa;
+      padding: 40px 0;
+    }
+    .stat-box {
+      text-align: center;
+      padding: 20px;
+    }
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #2eca6a;
+    }
+    .demand-box {
+      background-color: #fff;
+      border-left: 4px solid #2eca6a;
+      padding: 20px;
+      margin: 15px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .action-button {
+      background-color: #2eca6a;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1.1rem;
+      margin: 10px;
+      transition: all 0.3s ease;
+    }
+    .action-button:hover {
+      background-color: #25a558;
+      transform: translateY(-2px);
+      color: white;
+    }
+  </style>
+</head>
+
+<body data-barba="wrapper">
+
+  <div class="click-closed"></div>
+
+  <main data-barba="container" data-barba-namespace="etth-campaign">
+    <!-- Header Component Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Campaign Hero Section -->
+    <section class="campaign-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <h1 class="display-4 mb-4">ETTH: Energy To The Home</h1>
+            <p class="lead mb-4">Free those prepaid meters from ANC monopoly capital</p>
+            <p class="mb-4">Join our campaign for open net metering, smart connectivity, and energy democracy in South Africa</p>
+            <div class="social-share-buttons">
+              <a href="#" class="btn btn-facebook" onclick="shareOnFacebook()">
+                <i class="fa fa-facebook"></i> Share on Facebook
+              </a>
+              <a href="#" class="btn btn-twitter" onclick="shareOnTwitter()">
+                <i class="fa fa-twitter"></i> Share on Twitter
+              </a>
+              <a href="#" class="btn btn-linkedin" onclick="shareOnLinkedIn()">
+                <i class="fa fa-linkedin"></i> Share on LinkedIn
+              </a>
+              <a href="#" class="btn btn-whatsapp" onclick="shareOnWhatsApp()">
+                <i class="fa fa-whatsapp"></i> Share on WhatsApp
+              </a>
+              <a href="#" class="btn btn-email" onclick="shareViaEmail()">
+                <i class="fa fa-envelope"></i> Share via Email
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Campaign Stats -->
+    <section class="campaign-stats">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="stat-box">
+              <div class="stat-number">20,000</div>
+              <p>Attended Solar Convention</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="stat-box">
+              <div class="stat-number">100</div>
+              <p>Days Notice for Meter Changes</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="stat-box">
+              <div class="stat-number">0</div>
+              <p>Direct Energy Sales Allowed</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="stat-box">
+              <div class="stat-number">∞</div>
+              <p>Potential for Change</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Campaign Content -->
+    <section class="section-property section-t8">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-wrap d-flex justify-content-center mb-5">
+              <div class="title-box">
+                <h2 class="title-a">The Energy Divide Crisis</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-md-6">
+            <img src="img/blackouts.jpg" alt="Energy Crisis" class="img-fluid rounded mb-4">
+          </div>
+          <div class="col-md-6">
+            <h3>Two Cape Towns, Two Energy Realities</h3>
+            <p>While 20,000 Capetonians attended the Solar & Storage Convention at CTICC, exploring solar financing options worth R40,000-R60,000, residents of Lavender Hill and Steenberg protested against prepaid meters on the streets.</p>
+            
+            <p>This stark contrast reveals South Africa's "energy divide" - a gap between those who can afford to embrace renewable energy solutions and those trapped in a monopolistic system that treats them as an afterthought.</p>
+            
+            <p><strong>The recent Electricity Regulation Act amendment</strong> allows Independent Power Producers to compete with Eskom, but maintains the problematic pyramid scheme of bulk electricity sales through Metros and Municipalities to end consumers.</p>
+          </div>
+        </div>
+
+        <!-- Our Demands Section -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title-wrap d-flex justify-content-center mb-4">
+              <div class="title-box">
+                <h2 class="title-a">Our ETTH Demands</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="demand-box">
+              <h4><i class="fa fa-plug color-b"></i> Open Net Metering</h4>
+              <p>Prepaid meters must have connectivity specifications, external ports for LAN interface, and data channels from Pretoria to household consumption systems.</p>
+            </div>
+            
+            <div class="demand-box">
+              <h4><i class="fa fa-clock-o color-b"></i> Time-of-Use Consumption</h4>
+              <p>Enable households to charge batteries when energy is cheaper and use storage during peak expensive periods.</p>
+            </div>
+            
+            <div class="demand-box">
+              <h4><i class="fa fa-home color-b"></i> Home Automation Integration</h4>
+              <p>Connect meters with home automation assistants for intelligent demand management and energy optimization.</p>
+            </div>
+          </div>
+          
+          <div class="col-md-6">
+            <div class="demand-box">
+              <h4><i class="fa fa-users color-b"></i> Direct Energy Sales</h4>
+              <p>Allow businesses to sell energy directly to consumers, bypassing monopolistic intermediaries and reducing costs.</p>
+            </div>
+            
+            <div class="demand-box">
+              <h4><i class="fa fa-car color-b"></i> EV Integration</h4>
+              <p>Government incentives for electric vehicles charged by renewable energy, supporting the transition to clean transport.</p>
+            </div>
+            
+            <div class="demand-box">
+              <h4><i class="fa fa-building color-b"></i> Collective Housing Schemes</h4>
+              <p>Enable collective energy generation at local level to solve problems in communities like Lavender Hill.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="row mt-5">
+          <div class="col-md-12 text-center">
+            <h3>Join the ETTH Movement</h3>
+            <p class="lead">Together, we can break free from energy monopolies and build a democratic energy future</p>
+            
+            <a href="membership.html" class="action-button">
+              <i class="fa fa-users"></i> Join Our Cooperative
+            </a>
+            
+            <a href="https://www.medialternatives.com/post/open-energy-to-the-home-etth-to-free-those-prepaid-meters-from-anc-monopoly-capital" target="_blank" class="action-button">
+              <i class="fa fa-external-link"></i> Read Full Article
+            </a>
+            
+            <a href="press.html" class="action-button">
+              <i class="fa fa-newspaper-o"></i> Media Coverage
+            </a>
+          </div>
+        </div>
+
+        <!-- Share Again Section -->
+        <div class="row mt-5">
+          <div class="col-md-12">
+            <div class="card-box-c">
+              <div class="card-header-c d-flex justify-content-center">
+                <div class="card-title-c">
+                  <h3 class="title-c">Spread the Word</h3>
+                </div>
+              </div>
+              <div class="card-body-c text-center">
+                <p class="content-c">Help us reach more people by sharing this campaign on social media</p>
+                <div class="social-share-buttons">
+                  <a href="#" class="btn btn-facebook" onclick="shareOnFacebook()">
+                    <i class="fa fa-facebook"></i> Facebook
+                  </a>
+                  <a href="#" class="btn btn-twitter" onclick="shareOnTwitter()">
+                    <i class="fa fa-twitter"></i> Twitter
+                  </a>
+                  <a href="#" class="btn btn-linkedin" onclick="shareOnLinkedIn()">
+                    <i class="fa fa-linkedin"></i> LinkedIn
+                  </a>
+                  <a href="#" class="btn btn-whatsapp" onclick="shareOnWhatsApp()">
+                    <i class="fa fa-whatsapp"></i> WhatsApp
+                  </a>
+                  <a href="#" class="btn btn-email" onclick="shareViaEmail()">
+                    <i class="fa fa-envelope"></i> Email
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer Component Placeholder -->
+    <div id="footer-placeholder"></div>
+
+  </main>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/scrollreveal/scrollreveal.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+  <!-- Header and Footer Loaders -->
+  <script src="js/header-loader.js"></script>
+  <script src="js/footer-loader.js"></script>
+
+  <!-- Social Media Sharing JavaScript -->
+  <script>
+    // Get current page URL and details
+    const pageUrl = encodeURIComponent(window.location.href);
+    const pageTitle = encodeURIComponent('ETTH Campaign - Energy To The Home | Muizenberg Electricity Co-Op');
+    const pageDescription = encodeURIComponent('Join our ETTH campaign to free prepaid meters from monopoly capital and demand open net metering for energy democracy in South Africa.');
+
+    function shareOnFacebook() {
+      const url = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
+      window.open(url, '_blank', 'width=600,height=400');
+    }
+
+    function shareOnTwitter() {
+      const text = encodeURIComponent('Join the ETTH campaign for energy democracy in South Africa! #ETTH #EnergyDemocracy #OpenNetMetering');
+      const url = `https://twitter.com/intent/tweet?text=${text}&url=${pageUrl}`;
+      window.open(url, '_blank', 'width=600,height=400');
+    }
+
+    function shareOnLinkedIn() {
+      const url = `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`;
+      window.open(url, '_blank', 'width=600,height=400');
+    }
+
+    function shareOnWhatsApp() {
+      const text = encodeURIComponent(`ETTH Campaign - Energy To The Home\n\nJoin our campaign to free prepaid meters from monopoly capital and demand open net metering for energy democracy in South Africa.\n\n${window.location.href}`);
+      const url = `https://wa.me/?text=${text}`;
+      window.open(url, '_blank');
+    }
+
+    function shareViaEmail() {
+      const subject = encodeURIComponent('ETTH Campaign - Energy To The Home');
+      const body = encodeURIComponent(`I wanted to share this important campaign with you:\n\nETTH Campaign - Energy To The Home\n\nJoin the campaign to free prepaid meters from monopoly capital and demand open net metering for energy democracy in South Africa.\n\nLearn more: ${window.location.href}`);
+      const url = `mailto:?subject=${subject}&body=${body}`;
+      window.location.href = url;
+    }
+
+    // Copy link to clipboard function
+    function copyLink() {
+      navigator.clipboard.writeText(window.location.href).then(function() {
+        alert('Link copied to clipboard!');
+      });
+    }
+  </script>
+
+</body>
+</html>

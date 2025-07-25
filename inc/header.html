@@ -24,6 +24,7 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownSites">
               <!-- Priority items -->
+              <a class="dropdown-item" href="etth-campaign.html" id="nav-etth">🔋 ETTH Campaign</a>
               <a class="dropdown-item" href="https://github.com/umbane/carbon-project" target="new">Carbon Project</a>
               <a class="dropdown-item" href="presentation.html" target="new">Presentation</a>
               <a class="dropdown-item" href="press.html" id="nav-press">Press Coverage</a>
@@ -108,6 +109,10 @@
         case 'survey.html':
           document.getElementById('nav-survey')?.classList.add('active');
           document.getElementById('navbarDropdownInfo')?.classList.add('active');
+          break;
+        case 'etth-campaign.html':
+          document.getElementById('nav-etth')?.classList.add('active');
+          document.getElementById('navbarDropdownSites')?.classList.add('active');
           break;
       }
     });

@@ -17,6 +17,16 @@
     status = 301
     force = true
 
+  [[headers]]
+    for = "/*" 
+    [headers.values] 
+    cache-control = ''' 
+    max-age=0, 
+    no-cache, 
+    no-store, 
+    must-revalidate'''
+
+
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
   #[[redirects]]
